@@ -114,9 +114,7 @@ export default function Dashboard() {
                   Add Item
                 </button>
               </div>
-
-              <InvoiceTable itemLIst={itemList} />
-
+              {/* <InvoiceTable itemLIst={itemList} /> */}
               <button
                 className="bg-blue-800 text-gray-100 w-full p-4 rounded my-6"
                 type="submit"
